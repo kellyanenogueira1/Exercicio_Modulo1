@@ -5,5 +5,11 @@ const joao = {
     }
 }
 
-joao.nome = 'Maria'
-joao.saudacao()
+function saudacaoMaria(){
+    nome = 'Maria'
+
+    const {saudacao} = joao
+    return saudacao()
+}
+
+saudacaoMaria()
